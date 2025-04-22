@@ -89,7 +89,7 @@ BMI-Insight/
 
 Made with ❤️ by **Mohammad Zahir AKbari**
 
-Feel free to reach out via GitHub or [LinkedIn](https://www.linkedin.com/in/m-zahir-akbari786)!
+Feel free to reach out via [GitHub](https://www.github.com/m-zahir-akbari)! or [LinkedIn](https://www.linkedin.com/in/m-zahir-akbari786)!
 
 ---
 

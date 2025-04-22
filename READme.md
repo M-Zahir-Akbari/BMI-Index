@@ -5,21 +5,6 @@ A simple and responsive BMI (Body Mass Index) calculator built with **HTML**, **
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [How To Use](#how-to-use)
-- [BMI Classification](#bmi-classification)
-- [Future Plan](#future-plan)
-- [Author](#author)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 🚀 Features
 
 - ✅ Clean & responsive UI for desktop and mobile

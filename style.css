@@ -1,0 +1,148 @@
+/* Global Reset & Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Root font size for responsiveness */
+html {
+  font-size: 16px;
+}
+
+/* Body Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  background-color: #ffffff;
+  max-width: 95%;
+  width: 60%;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+  border: 1px solid #e0e0e0;
+}
+
+/* Headings */
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #005b96;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+  color: #28a745;
+}
+
+/* Table Styling */
+table {
+  margin: 0 auto 30px auto;
+  border-spacing: 12px;
+}
+
+td {
+  padding: auto auto; /* Optional: can be removed if not visually necessary */
+}
+
+/* Label Styling */
+label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input Fields */
+input {
+  width: 120px;
+  height: 30px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #005b96;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Button Styling */
+#calculate-button {
+  width: auto;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(0, 123, 204, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+#calculate-button:hover {
+  background-color: #005b96;
+}
+
+/* Result Box Styling */
+.result-container {
+  display: none; /* Hidden by default */
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.7;
+  border-radius: 10px;
+  background-color: #e9f5e9;
+  border-left: 5px solid #28a745;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 92%;
+    padding: 25px;
+    margin: 40px auto;
+  }
+
+  .result-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  input {
+    width: 90px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+    color: #888;
+  }
+
+  #calculate-button {
+    width: 100%;
+  }
+}
